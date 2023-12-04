@@ -1,0 +1,268 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+.nav{
+    display: flex;
+    align-items: center;
+   max-height: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 998.48px;
+    margin-left: 200px;
+}
+.nav-img{
+    width:104px;
+    height: 19.5px;
+}
+.nav-list{
+    color: aliceblue;
+    display: flex;
+    list-style: none;
+    position: relative;
+    justify-content: space-between;
+}
+.nav-list li{
+    text-decoration:none;
+    margin-right:5px ;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.nav-list i{
+margin-top: 5px;
+}
+.fa-magnifying-glass{
+    color:aliceblue;
+    margin-left: 50px;
+    font-size: 25px;
+}
+.nav-info{
+    display: flex;
+    color:aliceblue;
+    margin-left: 10px;
+}
+.nav-img2{
+    width: 64px;
+    height: 48px;
+    margin-left:10px ;
+}
+.nav-info p{
+    margin-left: 14px;
+}
+.nav-info i{
+    margin-left: 5px;
+}
+.header-body{
+    background: 100% url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+    position: relative;
+    height: 558px;
+    width: 1200px;
+    color: aliceblue;
+}
+.dody-centent{
+    width:593.62px;
+    height: 558px;
+    margin-left: 30px;
+    padding-top: 25px;
+}
+.dody-centent h1{
+    font-size: 50px;
+    font-weight: 80;
+}
+.dody-centent p{
+    font-size: 30px;
+    font-weight: 100;
+}
+.body-button{
+    margin-top: 0;
+    width: 280px;
+    height: 48px;
+    background-color: rgb(7, 188, 243);
+    border-radius: 5px;
+    border: none;
+}
+.body-button::placeholder {
+    padding-left: 48px;
+    align-items: center;
+    font-size: 16px;
+    color: azure;
+    font-weight: 200;
+}
+/****section 1****/
+.section-1{
+    background: url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg);
+    height: 480px;
+    width: 1200px;
+    margin-bottom: 0;
+}
+.section-1-body{
+    color:aliceblue;
+    width:593.62px;
+    height: 600px;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.section-1-body h1{
+    font-size: 50px;
+    font-weight: 80;
+}
+.section-1-body p{
+    font-size: 30px;
+    font-weight: 100;
+}
+.body-button2{
+    margin-top: 0;
+    width: 280px;
+    height: 48px;
+    background-color: rgb(7, 188, 243);
+    border-radius: 5px;
+    border: none;
+}
+.body-button2::placeholder {
+    padding-left: 35%;
+    align-items: center;
+    font-size: 20px;
+    color: azure;
+    font-weight: 200;
+    border-radius: 0;
+}
+/*section 2*/
+.section-2{
+    background-color: white;
+    height: 545px;
+    width: 1200px;
+    padding-left: 0;
+    margin-left: 0;
+    display: flex;
+    object-fit: cover;
+}
+.section-2-left{
+   max-width: 50%;
+   padding-left: 40px;
+   padding-top: 20px;
+   margin-right: 20px;
+}
+.section-2-left h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+.section-2-left{
+    font-size: 30px;
+    font-weight: 100;
+    width: 50%;
+    margin-bottom: 0;
+   
+}
+.section-2-right{
+    margin-top: 5px;
+}
+.channels{
+    display: flex;
+}
+.channels img{
+    width: 183.45px;
+    height: 126.6px;
+    margin: 3px 3px; 
+    padding: 0;
+}
+/*section-3**/
+.section-3{
+    background: 100% url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg);
+    width:1200px;
+    height: 500px;
+    margin: 0;
+}
+.section3-content{
+    width:512px;
+    color: aliceblue;
+    margin-left: 50%;
+}
+.section3-content h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+.section3-content p{
+    font-size: 25px;
+    font-weight: 100;
+}
+.section3-button{
+    margin-top: 0;
+    width: 280px;
+    height: 48px;
+    background-color: rgb(7, 188, 243);
+    border-radius: 5px;
+    border: none;
+}
+.section3-button::placeholder {
+    padding-left: 35%;
+    align-items: center;
+    font-size: 20px;
+    color: azure;
+    font-weight: 200;
+    border-radius: 0;
+}
+/**section 4***/
+.section-4{
+    background: 80% url(https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg);
+    width:1200px;
+    height: 500px;
+    margin: 0;
+}
+.section4-content{
+    width:512px;
+    color: aliceblue;
+    margin-right: 50%;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+.section4-content h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+.section4-content p{
+    font-size: 25px;
+    font-weight: 100;
+}
+.section3-button{
+    margin-top: 0;
+    width: 280px;
+    height: 48px;
+    background-color: rgb(7, 188, 243);
+    border-radius: 5px;
+    border: none;
+}
+.section3-button::placeholder {
+    padding-left: 35%;
+    align-items: center;
+    font-size: 20px;
+    color: azure;
+    font-weight: 200;
+    border-radius: 0;
+}
+/*footer*/
+.footer1{
+    background-color: rgb(27, 27, 27);
+}
+.footer-content{
+    width: 370px;
+    height: 110px;
+    padding-left: 35%;
+    padding-top: 13px;
+    line-height: 0.10px;
+}
+.footer-content img{
+    padding-left:30%;
+}
+.footer-con{
+    display: flex;
+    color:aqua;
+    text-align: center;
+    font-size: 13px;
+    justify-content: space-between;
+    padding-bottom: 0px;
+}
+.outerp{
+    font-size :15px;
+    color: grey;
+    padding-left: 20px;
+}
